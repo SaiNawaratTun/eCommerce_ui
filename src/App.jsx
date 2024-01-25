@@ -1,6 +1,4 @@
-import { useState } from 'react'
-
-import Header from './components/header'
+import Header from './components/Header'
 import BestDeals from './components/BestDeals'
 import Member from './components/Member'
 import NewRelease from './components/NewRelease'
