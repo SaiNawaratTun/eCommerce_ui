@@ -59,7 +59,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='md:flex md:space-x-44 space-y-2'>
+            <div className='md:flex md:space-x-44 my-10 space-y-6'>
                 <div className='space-y-2'>
                     <h1 className='text-black text-xl'>Payment</h1>
                     <div className='flex h-12 gap-2'>
