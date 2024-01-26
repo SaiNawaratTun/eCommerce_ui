@@ -152,10 +152,10 @@ export default function Header() {
                     </svg>
                 </button>
             </div>
-            <div className=" absolute inset-0 row-span-1 flex justify-between mx-4 my-2 md:mx-16 md:my-8 ">
-                <div>
-                    <p className="text-white text-xl">PI</p>
-                </div>
+            <div className=" absolute inset-0  flex justify-between mx-4 my-2 md:mx-24 md:my-8 ">
+
+                <span className="text-white md:text-xl ">PI</span>
+
                 <div className="flex md:space-x-4 h-4 md:h-10">
                     <img src={search} alt="" />
                     <img src={cart} alt="" />

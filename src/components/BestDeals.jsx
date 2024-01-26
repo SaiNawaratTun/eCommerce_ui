@@ -4,12 +4,12 @@ import arrow from '../assets/arrow.svg'
 
 export default function BestDeals() {
     return (
-        <div className='conatiner w-full flex flex-col justify-center items-center text-center space-y-5'>
+        <div className='conatiner max-w-full px-2 md:px-24 flex flex-col justify-center items-center text-center space-y-5'>
             <div className='w-full'>
                 <h1 className='text-2xl md:text-5xl font-bold text-black'>Best Deals</h1>
                 <p className='text-black'>Just For You</p>
             </div>
-            <div className='container w-full px-2 md:px-24 grid md:grid-cols-6 justify-center gap-3'>
+            <div className='container w-full  grid md:grid-cols-6 justify-center gap-8'>
                 <div className='space-y-3 w-full'>
                     <div className='bg-slate-200 border rounded-lg px-10 space-y-10'>
                         <p className='bg-red-700 text-white'>25% OFF</p>

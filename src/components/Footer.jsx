@@ -13,8 +13,8 @@ import viber from '../assets/viber.svg'
 
 export default function Footer() {
     return (
-        <div className='container w-full px-2 md:px-24 py-5'>
-            <div className='grid md:grid-cols-4 gap-4'>
+        <div className='container max-w-full px-2 md:px-24 py-5'>
+            <div className='grid md:grid-cols-4 gap-5'>
                 <div className='space-y-2'>
                     <h1 className='text-black text-xl'>Customer Service</h1>
                     <div className='flex'>
@@ -29,15 +29,15 @@ export default function Footer() {
                 <div className='space-y-2'>
                     <h1 className='text-black text-xl'>Languages</h1>
                     <div className='space-x-2'>
-                        <input type="radio" id='mu' className="radio radio-primary w-4 h-4" />
+                        <input type="radio" id='mu' name='mm' className="radio radio-primary w-4 h-4" />
                         <label htmlFor="mu" className='text-black'>Myanmar (Unicode)</label>
                     </div>
                     <div className='space-x-2'>
-                        <input type="radio" id='mz' className="radio radio-primary w-4 h-4" />
+                        <input type="radio" id='mz' name='mm' className="radio radio-primary w-4 h-4" />
                         <label htmlFor="mz" className='text-black'>Myanmar (Zawgyi)</label>
                     </div>
                     <div className='space-x-2'>
-                        <input type="radio" id='eng' className="radio radio-primary w-4 h-4" />
+                        <input type="radio" id='eng' name='mm' className="radio radio-primary w-4 h-4" />
                         <label htmlFor="eng" className='text-black'>English</label>
                     </div>
                 </div>

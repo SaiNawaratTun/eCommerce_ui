@@ -6,16 +6,16 @@ import vape from '../assets/vape1.png'
 export default function () {
 
     return (
-        <div className='container w-full px-2 md:px-24'>
-            <div className='w-full md:flex items-center p-5  bg-zinc-800 border rounded-lg space-y-5 md:space-x-20'>
-                <div className=' flex items-center '>
+        <div className='container max-w-full px-2 md:px-24 '>
+            <div className=' w-full   md:flex items-center p-5  bg-zinc-800 border rounded-lg space-y-5 md:space-x-20'>
+                <div className=' w-full flex items-center '>
                     <img className='max-w-60' src={vape} alt="" />
                     <div>
                         <h1 className='text-white text-sm md:text-5xl font-bold'>Devices</h1>
                         <p className='text-white text-sm md:text-2xl'>find the best for <br />you here!</p>
                     </div>
                 </div>
-                <div className="container carousel carousel-center max-w-full space-x-4 rounded-box relative">
+                <div className="container carousel carousel-center w-full px-2 md:px-24 space-x-4 rounded-box relative">
                     <div className="carousel-item w-60 grid grid-rows-3">
                         <div className=' row-span-2'>
                             <img src="https://vape.com/cdn/shop/products/ONT036271_1200x.png?v=1691592342" alt="" className="rounded-box" />
@@ -102,7 +102,6 @@ export default function () {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

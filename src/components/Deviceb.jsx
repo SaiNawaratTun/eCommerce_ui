@@ -6,7 +6,7 @@ import vape from '../assets/vape2.png'
 export default function () {
 
     return (
-        <div className='container w-full px-2 md:px-24'>
+        <div className='container max-w-full px-2 md:px-24'>
             <div className='w-full md:flex items-center p-5  bg-zinc-800 border rounded-lg space-y-5 md:space-x-20'>
                 <div className=' flex items-center '>
                     <img className='max-w-60' src={vape} alt="" />

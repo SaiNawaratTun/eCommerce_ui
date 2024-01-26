@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function NewRelease() {
     return (
-        <div className='onatiner max-w-full px-2 md:px-24 space-y-3'>
+        <div className=' max-w-full px-2 md:px-24 space-y-3'>
             <div className='flex flex-col justify-center items-center'>
                 <div className='text-2xl md:text-5xl flex gap-2 font-bold'>
                     <p className='text-red-400'>New</p>
